@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+}
+
+.website-logo {
+  height: 60px;
+  margin-left: 50px;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-container div {
+  margin-left: 28px;
+  font-weight: bold;
+  font-family: 'Bree Serif', serif;
+  color: white;
+  font-size: 19px;
+  padding: 6px 20px 6px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.home-button:hover,
+.services-button:hover,
+.our-clients-button:hover,
+.contact-us-button:hover {
+  background-color: white;
+  color: black;
+}
+
+  
